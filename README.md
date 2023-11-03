@@ -1,33 +1,90 @@
 # Django
 
-Complete login registration backend system using Spring Boot.
+## what you should know in python
+ 		
+- basics
+- classes
+- nheritance
 
-[![YouTube Video](https://user-images.githubusercontent.com/40702606/104790682-d62ac880-578f-11eb-8353-aa68739ffe42.png)](https://www.youtube.com/watch?v=QwQuro7ekvc)
+ ## realtion database
+   
+- tabels
+- columns
+- keys
+- realtionships
 
-- [x] Spring Boot
-- [x] Spring Security
-- [x] Java Mail
-- [x] Email verification with expiry
-- [x] Spring Boot
+## tips
 
-## Diagram
-![Screenshot 2021-01-13 at 23 38 08](https://user-images.githubusercontent.com/40702606/104789980-15581a00-578e-11eb-998d-30f2e6a9f461.png)
+- watch all lessons from A to Z
+- some basic shortcuts
+- complate all the exercises
 
-## Email verification link with expiry
-![Screenshot 2021-01-13 at 23 37 33](https://user-images.githubusercontent.com/40702606/104789893-0c674880-578e-11eb-939a-2a1cd3a8dfd2.png)
+## some sites to learn django
 
-## Example requests
-### Postman
-![Screenshot 2021-01-13 at 23 37 57](file:///C:/Users/faisa/OneDrive/%E2%80%8F%E2%80%8F%D8%A7%D9%84%D8%B5%D9%88%D8%B1%20-%20%D9%86%D8%B3%D8%AE%D8%A9/%D8%A7%D9%84%D8%B5%D9%88%D8%B1/%D9%84%D9%81%D8%A9%20%D9%83%D8%A7%D9%85%D9%8A%D8%B1%D8%A7/%D9%84%D9%82%D8%B7%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B4%D8%A7%D8%B4%D8%A9/Screenshot%202023-11-03%20034613.png)
+[mosh](https://youtu.be/rHux0gMZ3Eg)
+- [x] introducion to django
+- [x] fundamenetals of web development
+- [x] setting up the development evironment
+- [x] your first django project
+- [x] 2 essential debbugging techniques
 
-### CURL
-```
-curl --location --request POST 'localhost:8080/api/v1/registration' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "firstName": "Amigos",
-    "lastName": "Code",
-    "email": "hellow@amigoscode.com",
-    "password": "password"
-}'
-```
+[django and databases](https://www.pythontutorial.net/django-tutorial/django-orm/)
+
+[django](https://www.freecodecamp.org/news/django-model-relationships/)
+
+[freecodecamp](https://www.freecodecamp.org/news/python-django-course/)
+
+[realpython](https://realpython.com/tutorials/django/)
+
+[best django tutorail ](https://www.w3schools.com/django/index.php)
+
+## other web frame work for python
+
+![image](https://github.com/d7ome-debug/Django/assets/127843856/cbe617fa-341e-422b-bf06-c9aef1975769)
+
+<h1 align="center">djagno files explain</h1>
+
+## project files
+
+![Screenshot 2023-11-03 034602](https://github.com/d7ome-debug/Django/assets/127843856/609b56cb-fc9a-4e0c-8f3b-7e79e8188eed)
+
+## app files
+
+![Screenshot 2023-11-03 034613](https://github.com/d7ome-debug/Django/assets/127843856/1b0723d5-f201-4442-8431-4016875eb78a)
+
+
+### need to know 
+
+#### clints tools
+
+- REACT
+
+- ANGULAR
+
+- VUE
+
+
+#### Server
+
+
+- DJANGO
+
+- ASP.NET CORE
+
+- EXPRESS
+
+
+#### server data
+
+- /products
+
+- /orders
+
+# getting strated
+here you need to make your own folder to get strated and lets name it app, now run  `mkdir app`
+ 
+
+
+ 
+
+now open your folder by running 
