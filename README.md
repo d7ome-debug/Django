@@ -1,77 +1,139 @@
-# Django
+# Django Roadmap:
 
- ## 📖 what you will learn 
- - Making a you're own venv
- - Making you're first app
- - Know all the requrements
- - Explain every djnago file and his job
-   
+-------------------
 
-## 🐍 What You Should Know in Python
-- Basics
-- Classes
-- Inheritance
+## Part 1 (Development Basics):
+- Python virtual environment (pipenv, virtualenv, pyenv)
 
-## 🗃️ Relation Database
-- Tables
-- Columns
-- Keys
-- Relationships
+- Effective Python Book
 
-## 💡 Tips
-- Watch all lessons from A to Z
-- Learn some basic shortcuts
-- Complete all the exercises
-
-## 📚 Some Sites to Learn Django
-- [Mosh](https://youtu.be/rHux0gMZ3Eg)
-  - [x] Introduction to Django
-  - [x] Fundamentals of Web Development
-  - [x] Setting Up the Development Environment
-  - [x] Your First Django Project
-  - [x] 2 Essential Debugging Techniques
-- [Django and Databases](https://www.pythontutorial.net/django-tutorial/django-orm/)
-
-- [Django](https://www.freecodecamp.org/news/django-model-relationships/)
-
--  [FreeCodeCamp](https://www.freecodecamp.org/news/python-django-course/)
-
-- [RealPython](https://realpython.com/tutorials/django/)
+- VCS (Version Control System):
+  Git and Github (commits, branches, merges, conflicts, stashing, pull requests)
   
-- [Best Django Tutorial](https://www.w3schools.com/django/index.php)
+- IDE/Text Editor:
+ Pycharm Pro or VS Code (shortcuts, formatting, integrations, plugins)
+  
+- Networks Basics:
+ IPs, Ports, HTTP/HTTPS, FTP, Webservers, NATs, SSH, ...etc
+  
+- Linux
+
+- Using The Terminal/CMD/PowerShell
+
+# Part 2 (Databases)
+- RDB (PostgreSQL, MySQL/MariaDB, SQLite)
+- NoSQL (MongoDB, Redis)
+- ORM (Object-Relational Mapper)
+  
+## Part 3 (Software Engineering)
+- Conventional Commits
+- Trunk-based Development (https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)
+- Change Logs
+- README
+- Documentation
+- Clean Code
+- Design Principles (SOLID, KISS, YAGNI, ...etc)
+- Design Patterns
+- Testing (Unit, Integration, Functional)
+- Pytest
+- TDD (Test-Driven Development)
+- BDD (Behavior-Driven Development)
+- DDD (Domain-Driven Design)
+- Issue Tracking (GitHub issues, JIRA, Redmine) Learn how to mention issue number in commit message
+- Continues Integration ([GitHub Actions](https://github.com/features/actions), Jenkins, Travis-CI)
+- pre-commit hooks (black, flake) 
+- .env files and environmental variables 
+- Logs, and Logging (For Example Sentry)
 
 
-<h1 align="center">other python web frameworks</h1>
-
-![Screenshot 2023-11-03 063908](https://github.com/d7ome-debug/Django/assets/127843856/e20765dc-c18c-4145-9033-8cfe92d7a8fe)
-
-<h1 align="center">Django Files Explained</h1>
-
-## 📁 Project Files
-![Screenshot 2023-11-03 034602](https://github.com/d7ome-debug/Django/assets/127843856/609b56cb-fc9a-4e0c-8f3b-7e79e8188eed)
-
-## 📁 App Files
-![Screenshot 2023-11-03 034613](https://github.com/d7ome-debug/Django/assets/127843856/1b0723d5-f201-4442-8431-4016875eb78a)
-
-## 🧠 Need to Know 
-
-### 🛠️ Clients Tools
-- React
-- Angular
-- Vue
-
-### 🖥️ Server
-- Django
-- ASP.NET Core
-- Express
-
-### 📊 Server Data
-- /products
-- /orders
-
-# 🚀 Getting Started
-Here's what you need to make your own folder to get started. Let's name it `app`. Now run `mkdir app` to create the directory.
-
-Now open your folder by running `cd app` 
+## Part 4 (Web)
+- HTML, CSS, SASS, Javascript, Bootstrap and JQuery
+- REST API
+- Swagger
+- ngrok
+- GraphQL
+- Browser dev tools (elements tab, console, network tab, performance) 
 
 
+## Part 5 (Theory and Tools):
+- Security (XSS, SQL Injection, CSRF, CORS, ...etc)
+- Symmetric Encryption and Asymmetric Encryption
+- SSH (Connecting, Generating Keys, Adding Hosts, ...etc)
+- Authentication (session, basic, token and jwt token)
+- Docker, docker-compose
+- Postman
+- Authentication vs Authorization
+
+
+## Part 6 (Django)
+- Good Resources:
+  - Two-Scoops with Django
+  - Code With Mosh - Ultimate Django Series
+  - Documentation
+- Django App Architecture and Organization
+- Important Packages
+  - django-split-settings (https://sobolevn.me/2017/04/managing-djangos-settings)
+  - django-allauth (social auth)
+  - django-rest-auth (for drf)
+  - django-braces (mixins)
+  - django-compressor (for static files)
+  - django-countries (country fields)
+  - django-crispy-forms (render forms)
+  - django-db-mailer
+  - django-el-pagination
+  - django-extensions (shell_plus, jobs, ...etc)
+  - drf-extra-fields (Base64Fields)
+  - django-filters
+  - django-fsm (state machine)
+  - django-jet (admin styles and template)
+  - django-modeltranslation
+  - django-newsletter
+  - django-phonenumber-field
+  - django-push-notifications
+  - django-solo
+  - django-treebeard
+  - PyJWT
+  - django-redis
+  - django-wkhtmltopdf
+  - django-import-export
+  - sentry-sdk
+  - django-ckeditor
+  - geopy (locating)
+  - django-rest-knox (auth)
+  - drf-spectacular (swagger)
+  - easy-thumbnails
+  - django-oscar
+  - django-oscar-api
+  - django-oscar-invoices
+  - django-debug-toolbar
+  - pytest-django
+  - pytest-cov
+
+- custom management commands 
+- custom migrations 
+- permissions 
+- Django cookie-cutter
+- Django Rest Framework
+- Wagtail 
+- Django cms
+
+## Part 7 (Advanced Concepts & Devops & Production):
+- Elastic Stack
+- Caching with redis
+- Asynchronous programming (celery, rabbit mq, django rq, Kafka) 
+- Linux cron jobs
+- AWS Basics (S3, EC2, Networks)
+- Gunicorn
+- Nginx
+- Microservices
+- Hosting (PAAS, SAAS, IAAS)
+- System Design (a good book is System Design Interview - An Insider's Guide)
+
+
+## Part 8 (Front-End Optional Miscellaneous)
+- NPM
+- Webpack  
+- SPA (Vue and Nuxt.js/React and Next.js/Angular)
+- PWA
+- TypeScript
+- ...etc
